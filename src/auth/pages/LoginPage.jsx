@@ -10,6 +10,7 @@ export const LoginPage = () => {
                 <Grid container>
                     <Grid item xs={12} sx={{ marginTop: 2 }}>
                         <TextField
+                            type="email"
                             label="Correo"
                             placeholder='correo@gmail.com'
                             fullWidth
